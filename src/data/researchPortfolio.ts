@@ -1,0 +1,203 @@
+export interface ResearchPaper {
+  id: string;
+  title: string;
+  contribution: string;
+  status: string;
+  statusType: 'published' | 'under-review' | 'preprint' | 'in-progress' | 'development';
+  journal?: string;
+  domain: string;
+}
+
+export const RESEARCH_PORTFOLIO: ResearchPaper[] = [
+  {
+    id: '01',
+    title: 'Variational and Operator-Theoretic Analysis of Spectral Gaps in Yang–Mills Hamiltonians',
+    contribution: 'Advances rigorous mathematical foundations for Yang–Mills theory through variational and operator-theoretic spectral analysis.',
+    status: 'PUBLISHED',
+    statusType: 'published',
+    journal: 'International Journal of Theoretical Physics · Springer Nature',
+    domain: 'Physics / Mathematics',
+  },
+  {
+    id: '02',
+    title: 'NEXUS: A Revolutionary Framework for Autonomous Equation Discovery',
+    contribution: 'Introduces a framework for autonomous scientific equation discovery across mathematical and physical domains.',
+    status: 'UNDER REVIEW',
+    statusType: 'under-review',
+    journal: 'Scientific Reports',
+    domain: 'AI / Discovery',
+  },
+  {
+    id: '03',
+    title: 'Symbolic Laws of Protein Folding: Interpretable Dynamics and Inverse Design via NEXUS',
+    contribution: 'Applies symbolic discovery to interpretable protein-folding dynamics and inverse molecular design.',
+    status: 'UNDER REVIEW',
+    statusType: 'under-review',
+    journal: 'ACS Synthetic Biology',
+    domain: 'Biology / Molecular',
+  },
+  {
+    id: '04',
+    title: 'Quantum Electrons as Memory-Bearing Fields: Exact Correlation via the Unified Wave Equation',
+    contribution: 'Develops a memory-bearing field formulation for many-electron quantum systems and investigates electron correlation.',
+    status: 'PREPRINT',
+    statusType: 'preprint',
+    journal: 'Preprint Archive',
+    domain: 'Physics',
+  },
+  {
+    id: '05',
+    title: 'On a Generalization of the Field Equations of Gravitation Incorporating Fractional and Nonlocal Structure',
+    contribution: 'Investigates generalized gravitational field equations incorporating fractional and nonlocal mathematical structure.',
+    status: 'UNDER REVIEW',
+    statusType: 'under-review',
+    journal: 'Physica Scripta',
+    domain: 'Physics / Gravitation',
+  },
+  {
+    id: '06',
+    title: 'A Nonlocal Spectral Operator Model Reflecting Zeta Function Structure',
+    contribution: 'Investigates nonlocal spectral operators and their relationship to mathematical structures associated with the zeta function.',
+    status: 'UNDER REVIEW',
+    statusType: 'under-review',
+    journal: 'Journal of Number Theory',
+    domain: 'Mathematics',
+  },
+  {
+    id: '07',
+    title: 'Asymptotic Symbolic Completeness Beyond Finite Provability',
+    contribution: 'Investigates symbolic reasoning, logical completeness and mathematical structures beyond finite provability.',
+    status: 'UNDER REVIEW',
+    statusType: 'under-review',
+    journal: 'Journal of Logic and Computation',
+    domain: 'Mathematics / Logic',
+  },
+  {
+    id: '08',
+    title: 'AETHER: Autonomous, Evolving, Tamper-Proof Honeypot Ecosystem with Reactive Intelligence',
+    contribution: 'Develops an autonomous cybersecurity architecture for adaptive deception and reactive intelligence.',
+    status: 'PUBLISHED AS PREPRINT',
+    statusType: 'published',
+    journal: 'Authorea',
+    domain: 'Cybersecurity',
+  },
+  {
+    id: '09',
+    title: 'Emergence of Spacetime Geometry from Memory Dynamics',
+    contribution: 'Investigates whether geometric structure can emerge from memory-dependent dynamical systems.',
+    status: 'UNDER REVIEW',
+    statusType: 'under-review',
+    journal: 'New Journal of Physics',
+    domain: 'Physics / Spacetime',
+  },
+  {
+    id: '10',
+    title: 'Lorentz Symmetry as the Unique Transformation Preserving Causal Consistency of Memory Synchronization',
+    contribution: 'Investigates Lorentz symmetry through a framework based on causal consistency and memory synchronization.',
+    status: 'UNDER REVIEW',
+    statusType: 'under-review',
+    journal: 'New Journal of Physics',
+    domain: 'Physics / Symmetry',
+  },
+  {
+    id: '11',
+    title: 'Quantum Measurement as Memory-Induced State Reduction',
+    contribution: 'Develops a theoretical framework examining quantum measurement through memory-dependent state reduction.',
+    status: 'UNDER REVIEW',
+    statusType: 'under-review',
+    journal: 'New Journal of Physics',
+    domain: 'Physics / Quantum',
+  },
+  {
+    id: '12',
+    title: 'NEXUS-AD: Autonomous Discovery of Algorithmic Decision Laws in Infinite Program Spaces',
+    contribution: 'Extends autonomous discovery toward algorithmic decision laws and computational structures.',
+    status: 'UNDER REVIEW',
+    statusType: 'under-review',
+    journal: 'Machine Learning · Springer Nature',
+    domain: 'AI / Algorithms',
+  },
+  {
+    id: '13',
+    title: 'Towards the Foundations of AI Theory',
+    contribution: 'Investigates theoretical foundations for AI systems capable of mathematical and scientific reasoning.',
+    status: 'UNDER DEVELOPMENT',
+    statusType: 'development',
+    journal: 'PLECTIK Theoretical Working Paper',
+    domain: 'AI Theory',
+  },
+  {
+    id: '14',
+    title: 'A Variational Theory of Solar Magnetic Instability Through Autonomous Symbolic Discovery (ARKA)',
+    contribution: 'Applies autonomous symbolic discovery to solar magnetic instability and related space-physics problems.',
+    status: 'RESEARCH IN PROGRESS',
+    statusType: 'in-progress',
+    journal: 'Space Physics Initiative',
+    domain: 'Physics / Space',
+  },
+  {
+    id: '15',
+    title: 'Temporal Signal Synthesis for Tactile Braille: A Signal-Theoretic and Perceptual Modeling Framework',
+    contribution: 'Investigates temporal representations of tactile information for next-generation assistive communication.',
+    status: 'UNDER REVIEW',
+    statusType: 'under-review',
+    journal: 'Springer Nature',
+    domain: 'Accessibility / Signal Theory',
+  },
+  {
+    id: '16',
+    title: 'A General Law for Artificial Electrocytes',
+    contribution: 'Investigates a general framework for artificial electrocyte systems and bio-inspired energy generation.',
+    status: 'RESEARCH IN PROGRESS',
+    statusType: 'in-progress',
+    journal: 'Bio-Inspired Engineering Lab',
+    domain: 'Engineering / Biology',
+  },
+  {
+    id: '17',
+    title: 'MANTIS: Malware Analysis & Network Transaction Intelligence System',
+    contribution: 'Develops an intelligence framework for malware analysis, network transactions and adaptive cybersecurity.',
+    status: 'RESEARCH IN PROGRESS',
+    statusType: 'in-progress',
+    journal: 'Cybernetics & Network Intelligence',
+    domain: 'Cybersecurity',
+  },
+];
+
+export const CORE_DOMAINS = [
+  {
+    title: 'PHYSICS',
+    areas: ['Fundamental equations', 'Quantum systems', 'Field theory', 'Dynamics'],
+    desc: 'Investigating phenomena whose governing mathematical descriptions remain unwritten.',
+  },
+  {
+    title: 'BIOLOGY',
+    areas: ['Protein folding', 'Molecular systems', 'Biological dynamics', 'Inverse design'],
+    desc: 'Uncovering the explicit symbolic laws governing computation written into living matter.',
+  },
+  {
+    title: 'MATHEMATICS',
+    areas: ['Symbolic structures', 'Operators', 'Logic', 'Mathematical discovery'],
+    desc: 'Exploring logical completeness, spectral operator formulations, and novel conjectures.',
+  },
+  {
+    title: 'ARTIFICIAL INTELLIGENCE',
+    areas: ['Mathematical learning', 'Scientific reasoning', 'Algorithm discovery', 'Efficiency'],
+    desc: 'Teaching computational agents to discover, extract, and manipulate explicit mathematical structures.',
+  },
+  {
+    title: 'ENGINEERING',
+    areas: ['Optimization', 'Simulation', 'Design', 'Control architectures'],
+    desc: 'Turning discovered mathematical laws into physical controllers, accelerators, and design primitives.',
+  },
+  {
+    title: 'ACCESSIBILITY',
+    areas: ['Tactile communication', 'Signal transformation', 'Human-machine interfaces'],
+    desc: 'Transforming static spatial representations into temporal information for sensory perception.',
+  },
+  {
+    title: 'CYBERSECURITY',
+    areas: ['Malware analysis', 'Network intelligence', 'Adaptive deception systems'],
+    desc: 'Autonomous reactive ecosystems that evolve topological defense vectors in real time.',
+  },
+];

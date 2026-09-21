@@ -1,0 +1,6 @@
+{
+  "name": "Plectik",
+  "description": "PLECTIK is a scientific discovery technology exploring mathematical laws, relationships and computational structures across complex scientific domains.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
